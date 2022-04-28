@@ -1,7 +1,7 @@
 {
   "name": "vue-recipes",
   "version": "0.1.2",
-  "description": "A utility to create Vue components from your vanilla-extract recipes.",
+  "description": "A tiny utility to make type-safe variant Vue components from your vanilla-extract recipes.",
   "keywords": [
     "css",
     "css-in-js",

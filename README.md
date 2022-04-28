@@ -1,6 +1,6 @@
 # vue-recipes
 
-A utility to create Vue components from your [vanilla-extract](https://github.com/seek-oss/vanilla-extract) [recipes](https://vanilla-extract.style/documentation/recipes-api/#recipe).
+A tiny utility to make type-safe variant Vue components from your [vanilla-extract](https://github.com/seek-oss/vanilla-extract) [recipes](https://vanilla-extract.style/documentation/recipes-api/#recipe).
 
 ## Installation
 
