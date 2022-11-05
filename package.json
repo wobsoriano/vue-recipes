@@ -35,7 +35,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "rimraf dist && unbuild",
-    "dev": "unbuild --stub",
+    "dev": "unbuild --stub && pnpm --filter playground dev",
     "lint": "eslint .",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --commit --push --tag && pnpm publish",

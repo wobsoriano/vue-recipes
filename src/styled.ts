@@ -26,8 +26,8 @@ export function styled<
     : Type extends Component ? ExtractComponentProps<typeof tag>
       : never
 
-  const wrapper = defineComponent((props: Readonly<VariantProps & ElementProps>, { slots }) => {
-    const classNames = computed(() => recipeFn(props as any))
+  const wrapper = defineComponent((props: Readonly<VariantProps & ElementProps>, { slots, attrs }) => {
+    const classNames = computed(() => recipeFn(attrs as any))
     return () => h(tag as any, {
       class: classNames.value,
     }, slots)
