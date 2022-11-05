@@ -1,6 +1,6 @@
 {
   "name": "vue-recipes",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A tiny utility to make type-safe variant Vue components from your vanilla-extract recipes.",
   "keywords": [
     "css",
